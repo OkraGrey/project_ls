@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.nav_container {
+  display: flex;
+  justify-content: space-between;
+  height: 4rem;
+  background-color: slategray;
+  align-items: center;
+  padding: 1rem;
+}
+
+.logo a {
+  font-size: 2rem;
+  font-family: cursive;
+  text-decoration: none;
+  color: yellow;
+}
+
+.elements a {
+  font-size: 1rem;
+  font-family: cursive;
+  text-decoration: none;
+  color: salmon;
+}
+
+.elements a:hover {
+  color: yellow;
+}
